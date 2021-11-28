@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CSV Processing Application</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="csv-parser-container">
+			<header>CSV Parser</header>
+			<div class="form-container">
+				<form class="form">
+					<div class="file-upload-container" data-text="Select your file">
+						<input
+							name="file-upload"
+							type="file"
+							class="file-upload-field"
+							value=""
+							accept=".csv"
+							required
+						/>
+					</div>
+				</form>
+				<div class="file-info"></div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+		<noscript>You need to enable JavaScript to view the full site.</noscript>
+	</body>
+</html>
